@@ -1,33 +1,102 @@
+# Mevcut privacy.html'i detaylı şekilde güncelle
+cat > privacy.html << 'EOF'
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - Social Media Uploader</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; max-width: 800px; }
+        h1 { color: #333; }
+        h2 { color: #555; margin-top: 30px; }
+        ul { margin-left: 20px; }
+    </style>
 </head>
-<body style="font-family: Arial; margin: 40px; line-height: 1.6;">
-    <h1>Privacy Policy</h1>
-    <p><strong>Last updated:</strong> June 23, 2025</p>
-    
-    <h2>Information We Collect</h2>
-    <p>We collect minimal information needed for our service:</p>
+<body>
+    <h1>Privacy Policy for Social Media Uploader</h1>
+    <p><strong>Effective Date:</strong> June 23, 2025</p>
+    <p><strong>Last Updated:</strong> June 23, 2025</p>
+
+    <h2>1. Introduction</h2>
+    <p>Social Media Uploader ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application and services.</p>
+
+    <h2>2. Information We Collect</h2>
+    <p>We collect the following types of information:</p>
     <ul>
-        <li>Email address for account authentication</li>
-        <li>OAuth access tokens for platform integration</li>
-        <li>Video metadata (titles, descriptions, tags)</li>
+        <li><strong>Account Information:</strong> Email address and authentication credentials</li>
+        <li><strong>OAuth Tokens:</strong> Access tokens for connected social media platforms (YouTube, Instagram, TikTok)</li>
+        <li><strong>Video Metadata:</strong> Video titles, descriptions, tags, and upload history</li>
+        <li><strong>Usage Data:</strong> App usage statistics and error logs</li>
     </ul>
-    
-    <h2>How We Use Your Information</h2>
+
+    <h2>3. How We Use Your Information</h2>
+    <p>We use your information to:</p>
     <ul>
-        <li>Authenticate with YouTube, Instagram, and TikTok</li>
-        <li>Upload videos to your connected platforms</li>
-        <li>Store upload history for your reference</li>
+        <li>Authenticate your identity and manage your account</li>
+        <li>Connect to and upload content to your social media accounts</li>
+        <li>Store your upload history and preferences</li>
+        <li>Improve our services and provide customer support</li>
+        <li>Comply with legal obligations</li>
     </ul>
-    
-    <h2>Data Security</h2>
-    <p>We use industry-standard OAuth 2.0 authentication. We never store your social media passwords.</p>
-    
-    <h2>Contact</h2>
-    <p>For questions about this policy, contact: osmanbatmz@gmail.com</p>
+
+    <h2>4. Information Sharing and Disclosure</h2>
+    <p>We do not sell, trade, or rent your personal information. We may share information in the following circumstances:</p>
+    <ul>
+        <li><strong>With Social Media Platforms:</strong> To upload content on your behalf using OAuth 2.0</li>
+        <li><strong>Legal Requirements:</strong> When required by law or to protect our rights</li>
+        <li><strong>Service Providers:</strong> With trusted third-party services that help us operate our app</li>
+    </ul>
+
+    <h2>5. Data Security</h2>
+    <p>We implement industry-standard security measures including:</p>
+    <ul>
+        <li>OAuth 2.0 authentication protocols</li>
+        <li>Encrypted data transmission (HTTPS)</li>
+        <li>Secure database storage</li>
+        <li>Regular security audits</li>
+    </ul>
+
+    <h2>6. Data Retention</h2>
+    <p>We retain your information for as long as your account is active or as needed to provide services. You may request deletion of your account and data at any time.</p>
+
+    <h2>7. Your Rights</h2>
+    <p>You have the right to:</p>
+    <ul>
+        <li>Access your personal information</li>
+        <li>Correct inaccurate data</li>
+        <li>Delete your account and data</li>
+        <li>Revoke social media platform connections</li>
+        <li>Opt-out of communications</li>
+    </ul>
+
+    <h2>8. Third-Party Services</h2>
+    <p>Our app integrates with:</p>
+    <ul>
+        <li><strong>YouTube:</strong> Subject to <a href="https://www.youtube.com/t/privacy">YouTube Privacy Policy</a></li>
+        <li><strong>Instagram:</strong> Subject to <a href="https://help.instagram.com/privacy">Instagram Privacy Policy</a></li>
+        <li><strong>TikTok:</strong> Subject to <a href="https://www.tiktok.com/legal/privacy-policy">TikTok Privacy Policy</a></li>
+        <li><strong>Supabase:</strong> Subject to <a href="https://supabase.com/privacy">Supabase Privacy Policy</a></li>
+    </ul>
+
+    <h2>9. Children's Privacy</h2>
+    <p>Our service is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13.</p>
+
+    <h2>10. International Users</h2>
+    <p>If you are accessing our service from outside the United States, please be aware that your information may be transferred to, stored, and processed in the United States.</p>
+
+    <h2>11. Changes to Privacy Policy</h2>
+    <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.</p>
+
+    <h2>12. Contact Information</h2>
+    <p>If you have any questions about this Privacy Policy, please contact us at:</p>
+    <ul>
+        <li><strong>Email:</strong> osmanbatmz@gmail.com</li>
+        <li><strong>App:</strong> Social Media Uploader</li>
+        <li><strong>Website:</strong> <a href="https://osmanbatmz.github.io/social-media-uploader/">https://osmanbatmz.github.io/social-media-uploader/</a></li>
+    </ul>
+
+    <p><em>This Privacy Policy governs your use of Social Media Uploader and constitutes a legal agreement between you and the app developer.</em></p>
 </body>
 </html>
+EOF
